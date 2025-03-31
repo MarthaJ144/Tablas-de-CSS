@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b1d1d5;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(64, 64, 151);
+}
+
+.tabla-estilizada {
+    background-color: #74d1e4;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.tabla-estilizada th,
+.tabla-estilizada td {
+    border: 2px solid #000000;
+    padding: 10px;
+}
+
+nav {
+    background-color: #078db16b;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #474fab;
+}
+
+.submenu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d7cd41;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 50px;
+}
+
+.submenu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.submenu > li > a:hover {
+    background-color: #555555;
+}
+
+.submenu-visible {
+    display: block;
+}
+
+.imagen-pequena {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+.imagen-superior-derecha {
+    width: 80px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+    position: absolute;
+    top: 10;
+    right: 0;
+}
+.contenedor {
+    position: relative;
+    /* Otros estilos */
+}
+
+.imagen-superior-derecha {
+    /* Otros estilos */
+    z-index: 10; /* Un valor mayor asegura que la imagen esté por encima */
+}

@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu > li > a:hover {
+    background-color: #444;
+}
+
+/* Estilos para el submenú */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 180px;
+}
+
+.submenu > li > a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.submenu > li > a:hover {
+    background-color: #555;
+}
+
+/* Mostrar el submenú al pasar el ratón */
+.menu > li:hover
+::contentReference[oaicite:0]{index=0}
+ 
