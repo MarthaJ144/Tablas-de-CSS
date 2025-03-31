@@ -1,0 +1,126 @@
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Propiedades CSS Más Utilizadas</title>
+        <!-- Vinculación de la hoja de estilos externa -->
+        <link rel="stylesheet" href="Estilo.css">
+    </head>
+    <body>
+        <!-- Menú de navegación -->
+        <nav>
+            <ul class="menu">
+
+                <li><a href="#" class="menu-toggle">Menú Desplegable</a>
+                    <ul class="submenu">
+                        <li><a href="#color">color</a></li>
+                        <li><a href="#font-size">font-size</a></li>
+                        <li><a href="#margin">margin</a></li>
+                        <li><a href="#padding">padding</a></li>
+                        <li><a href="#background-color">background-color</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- Contenido principal -->
+        <div class="contenedor">
+            <!-- Otros contenidos -->
+            <img src="Logo-Universidad-ECCI.jpg" alt="Descripción de la imagen" class="imagen-superior-derecha">
+        </div>
+        
+        
+        
+        <main>
+            <h1>Propiedades CSS Más Utilizadas</h1>
+            
+            <table class="tabla-estilizada">
+                <thead>
+                    <tr>
+                        <th>Nombre de la Propiedad</th>
+                        <th>Sintaxis</th>
+                        <th>Descripción</th>
+                        <th>Ejemplo</th>
+                        <th>Imagen</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Fila 1 -->
+                    <tr id="color">
+                        <td>color</td>
+                        <td><code>color: valor;</code></td>
+                        <td>Define el color del texto de un elemento. Puede aceptar valores en nombres de color.</td>
+                        <td>
+
+                            <pre><code>p {
+        color: red;
+    }</code></pre>
+                            <p>Este ejemplo establece el color del texto de todos los párrafos en rojo.</p>
+                        </td>
+                        <td> <img src="color-de-letra-en-CSS.webp" alt="Disco" class="imagen-pequena"></td>
+                     
+                    </tr>
+                    <!-- Fila 2 -->
+                    <tr id="font-size">
+                        <td>font-size</td>
+                        <td><code>font-size: valor;</code></td>
+                        <td>Establece el tamaño de la fuente del texto. Los valores pueden ser en unidades absolutas (px, pt) o relativas (em, rem, %).</td>
+                        <td>
+                            <pre><code>h1 {
+        font-size: 24px;
+    }</code></pre>
+                            <p>Este ejemplo asigna un tamaño de fuente de 24 píxeles a todos los encabezados <code>&lt;h1&gt;</code>.</p>
+                        </td>
+                        <td> <img src="Untitled-76.webp" alt="Disco" class="imagen-pequena"></td>
+                    </tr>
+                    <!-- Fila 3 -->
+                    <tr id="margin">
+                        <td>margin</td>
+                        <td><code>margin: valor;</code></td>
+                        <td>Define el espacio exterior alrededor de un elemento. Puede especificarse para cada lado (top, right, bottom, left) o en una sola declaración para todos los lados.</td>
+                        <td>
+                            <pre><code>div {
+        margin: 10px 20px 10px 20px;
+    }</code></pre>
+                            <p>Este ejemplo establece un margen de 10 píxeles en la parte superior e inferior y 20 píxeles en los lados derecho e izquierdo de todos los <code>&lt;div&gt;</code>.</p>
+                        </td>
+                        <td> <img src="Ejemplo-div-con-class-1024x765.png" alt="Disco" class="imagen-pequena"></td>
+                    </tr>
+                    <!-- Fila 4 -->
+                    <tr id="padding">
+                        <td>padding</td>
+                        <td><code>padding: valor;</code></td>
+                        <td>Establece el espacio interior entre el contenido de un elemento y su borde. Similar a <code>margin</code>, puede especificarse para cada lado o en una sola declaración para todos los lados.</td>
+                        <td>
+                            <pre><code>section {
+        padding: 15px;
+    }</code></pre>
+                            <p>Este ejemplo aplica un relleno de 15 píxeles en todos los lados de cada <code>&lt;section&gt;</code>.</p>
+                        </td>
+                        <td> <img src="unnamed.png" alt="Disco" class="imagen-pequena"></td>
+                    </tr>
+                    <!-- Fila 5 -->
+                    <tr id="background-color">
+                        <td>background-color</td>
+                        <td><code>background-color: valor;</code></td>
+                        <td>Define el color de fondo de un elemento. Acepta valores en nombres de color, hexadecimal, RGB, RGBA, HSL, HSLA, entre otros.</td>
+                        <td>
+                            <pre><code>header {
+        background-color: #f0f0f0;
+    }</code></pre>
+                            <p>Este ejemplo asigna un color de fondo gris claro al <code>&lt;header&gt;</code>.</p>
+                        </td>
+                        <td> <img src="imagen-44.png" alt="Disco" class="imagen-pequena"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+        </main>
+
+        
+    </body>
+    </html>
